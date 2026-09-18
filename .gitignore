@@ -1,2 +1,6 @@
 camctl
 *.tmp
+
+.idea/
+.vscode/
+*.log
