@@ -1,0 +1,33 @@
+[
+  {
+    "id": "gate-01",
+    "name": "Cổng chính",
+    "rtsp_url": "rtsp://admin:admin@127.0.0.1:8554/gate01",
+    "zone": "north",
+    "has_ptz": true,
+    "tags": ["ptz", "entrance"]
+  },
+  {
+    "id": "barn-01",
+    "name": "Chuồng A",
+    "rtsp_url": "rtsp://admin:admin@127.0.0.1:8554/barn01",
+    "zone": "north",
+    "has_ptz": false
+  },
+  {
+    "id": "barn-02",
+    "name": "Chuồng B",
+    "rtsp_url": "rtsp://admin:admin@127.0.0.1:1/barn02",
+    "zone": "south",
+    "has_ptz": false,
+    "tags": ["indoor"]
+  },
+  {
+    "id": "field-01",
+    "name": "Đồng cỏ",
+    "rtsp_url": "rtsp://admin:admin@192.0.2.10/field01",
+    "zone": "south",
+    "has_ptz": true,
+    "tags": ["ptz", "outdoor"]
+  }
+]
