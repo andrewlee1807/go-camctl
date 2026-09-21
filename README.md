@@ -1,3 +1,15 @@
+# Core Go Concepts & Architecture
+- **Data First:** Khai báo trạng thái bằng `struct`, primitive types (`int`, `string`,...).
+- **Behavior:** Gắn logic qua `func` và `method`.
+- **Contracts:** Dùng `interface` để định nghĩa hành vi thay vì phân cấp lớp.
+- **Assembly:** Dùng `composition` và `embedding` để ghép nối thay cho inheritance.
+- **Concurrency:** Dùng `goroutine` để thực hiện các công việc đồng thời và `channel` để truyền dữ liệu, đồng bộ giữa chúng.
+
+# Go Design Philosophy
+- **Tập trung vào hành vi:** Chương trình cần làm gì trước, dữ liệu phục vụ hành vi đó ra sao?
+- **Giao tiếp qua interface:** Các components độc lập tương tác với nhau thông qua hành vi chung thay vì ràng buộc chặt chẽ.
+- **Đơn giản hóa mô hình:** Tránh xa hệ thống lớp phức tạp, ưu tiên ghép nối các khối nhỏ.
+---
 # camctl — Đề bài & lời giải mẫu
 
 Mini-project để luyện toàn bộ cú pháp cơ bản của Go, đặt trong bối cảnh dự án camera farm.
